@@ -1,0 +1,80 @@
+@import "./partials/overwrights";
+
+$main-font: "Nunito Sans";
+
+.navbar a {
+  font-family: $main-font;
+}
+
+.navbar p {
+  padding-inline: 1rem;
+}
+.dropdown button {
+  font-family: $main-font;
+}
+footer p {
+  color: $secondary;
+}
+
+@media (max-width: 575px) {
+  h2 {
+    text-align: center;
+    section div {
+      margin-bottom: 3rem;
+    }
+  }
+}
+footer {
+  margin-top: 20rem;
+}
+
+.dropdown .dropdown-text {
+  padding-right: 30px;
+}
+
+li {
+  transition: font-weight 0.3s ease;
+}
+
+li:hover {
+  font-weight: bold;
+}
+
+header {
+  margin-bottom: 1rem;
+}
+body {
+  font-family: $main-font;
+}
+
+h5 {
+  font-size: 4rem;
+}
+.text-size {
+  font-size: 1.2rem;
+}
+h6 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.maturity {
+  font-size: 1.2rem;
+  color: rgb(202, 201, 201);
+}
+.title-color {
+  color: rgb(202, 201, 201);
+}
+p i {
+  padding-right: 1rem;
+  font-size: 2rem;
+  color: rgb(202, 201, 201);
+}
+.custom-btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.custom-btn:hover {
+  background-color: white;
+  color: black;
+}
