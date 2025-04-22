@@ -21,14 +21,20 @@
         </div>
       </nav>
     </header>
+
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-10 border-bottom border-secondary">
+        <div class="col-12 col-md-10 border-bottom border-secondary">
           <h5 class="text-white border-bottom border-secondary pb-1 mb-4">Edit profile</h5>
-          <div class="row g-4">
-            <div class="col-4 text-white"><img src="./assets/assets/avatar.png" alt="avatar" class="img-fluid" /></div>
-            <div class="col-8 text-white">
+
+          <div class="row g-4 flex-column flex-md-row">
+            <div class="col-md-4 text-white text-center text-md-start mb-4 mb-md-0">
+              <img src="./assets/assets/avatar.png" alt="avatar" class="img-fluid" />
+            </div>
+
+            <div class="col-md-8 text-white text-center text-md-start">
               <h3 class="bg-secondary p-2 d-inline-block">Strive student</h3>
+
               <h3 class="text-secondary mt-5">Language:</h3>
               <div class="dropdown border-bottom border-secondary pb-5 mb-4">
                 <button
@@ -45,26 +51,27 @@
                   <li><a class="dropdown-item" href="#">French</a></li>
                 </ul>
               </div>
+
               <div class="border-bottom border-secondary">
                 <h3 class="text-secondary mt-3 mb-3">Maturity Settings:</h3>
                 <h6 class="bg-info p-1 d-inline-block p-2">ALL MATURITY RATINGS</h6>
                 <p class="pt-3 maturity mb-4">Show titles of all maturity ratings for this profile</p>
                 <button type="button" class="btn btn-dark btn-lg rounded-0 border border-secondary text-secondary mb-3">EDIT</button>
               </div>
+
               <div>
                 <h3 class="title-color mt-3 mb-3">Autoplay Controls:</h3>
-
-                <p class="maturity"><i class="bi bi-check-square"></i>Autoplay netx episode in a series on all devices</p>
-
-                <p class="maturity"><i class="bi bi-check-square"></i>Autoplay preview while browsing on all devices</p>
+                <p class="maturity"><i class="bi bi-check-square"></i> Autoplay next episode in a series on all devices</p>
+                <p class="maturity"><i class="bi bi-check-square"></i> Autoplay preview while browsing on all devices</p>
               </div>
             </div>
           </div>
-        </div>
-        <div class="text-center p-5">
-          <button type="button" class="btn btn-dark btn-lg rounded-0 border border-secondary text-secondary mb-3 p-3 me-3 custom-btn">SAVE</button>
-          <button type="button" class="btn btn-dark btn-lg rounded-0 border border-secondary text-secondary mb-3 p-3 me-3 custom-btn">CANCEL</button>
-          <button type="button" class="btn btn-dark btn-lg rounded-0 border border-secondary text-secondary mb-3 p-3 me-3 custom-btn">DELETE PROFILE</button>
+
+          <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 p-5">
+            <button class="btn btn-dark btn-lg rounded-0 border border-secondary text-secondary px-4 custom-btn">SAVE</button>
+            <button class="btn btn-dark btn-lg rounded-0 border border-secondary text-secondary px-4 custom-btn">CANCEL</button>
+            <button class="btn btn-dark btn-lg rounded-0 border border-secondary text-secondary px-4 custom-btn">DELETE PROFILE</button>
+          </div>
         </div>
       </div>
     </div>
